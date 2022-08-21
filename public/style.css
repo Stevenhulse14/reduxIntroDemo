@@ -14,22 +14,38 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: center
   }
 
 
 .scoreboard{
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between ;
-    width: 25%;
-    height: 30%;
+  background-color: aquamarine;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  width: 400px;
+  height: 300px;
 
 }
+.subcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+.subcontainer h1{
+  color:greenyellow;
+  font-size: x-large;
+  background-color: black;
+  width: 25px;
+  align-self: center;
+  margin-right: 25px
+}
 .player1{
-    margin-left: 40px;
+  margin-left: 45px;
 }
 .player2{
-    margin-right: 40px;
+  margin-right: 45px;
 }

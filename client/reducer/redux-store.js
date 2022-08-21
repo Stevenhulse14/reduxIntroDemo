@@ -5,7 +5,6 @@ import { createStore } from "redux";
 const initialState = {
   p1LifePoints: 8000,
   p2LifePoints: 8000,
-  plus_minus: "+",
 };
 
 // Actions
@@ -45,12 +44,12 @@ const reducer = (currState = initialState, action) => {
     case p2GainLifePoint:
       return {
         ...currState,
-        p2LifePoints: currState.p1LifePoints + action.amount,
+        p2LifePoints: currState.p2LifePoints + action.amount,
       };
     case p2LoseLifePoint:
       return {
         ...currState,
-        p2LifePoints: currState.p1LifePoints - action.amount,
+        p2LifePoints: currState.p2LifePoints - action.amount,
       };
     default:
       return currState;

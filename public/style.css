@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', arial,sans-serif;
+    padding: 0;
+    padding-bottom: 56px;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.scoreboard{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 25%;
+    height: 30%;
+
+}
+.player1{
+    margin-left: 40px;
+}
+.player2{
+    margin-right: 40px;
+}

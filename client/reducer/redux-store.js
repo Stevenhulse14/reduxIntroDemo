@@ -7,7 +7,7 @@ const initialState = {
   p2LifePoints: 8000,
 };
 
-// Actions
+// Action type
 const p1GainLifePoint = "+p1";
 const p1LoseLifePoint = "-p1";
 const p2GainLifePoint = "+p2";
